@@ -18,8 +18,7 @@ const Footer = () => {
                 <h4><FaPhone size={20} style={{color: "#fff", marginRight: "2rem"}}/>
                 08087600329</h4>
                 </div>
-            </div>
-            <div className="email">
+                <div className="email">
                 <h4><FaMailBulk size={20} style={{color: "#fff", marginRight: "2rem"}}/>
                 abdulhakeem.smith@yahoo.com</h4>
                 </div>
@@ -34,6 +33,8 @@ const Footer = () => {
                 </div>
                 
             </div>
+            </div>
+            
 
 </div>
     
