@@ -1,5 +1,5 @@
 import React from "react";
-import "./index";
+import "./index.css";
 import Home from "./Routes/Home";
 import About from "./Routes/About";
 import Project from "./Routes/Project";
@@ -21,3 +21,4 @@ function App() {
 }
 
 export default App;
+

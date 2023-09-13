@@ -21,7 +21,7 @@ const changeColor = () => {
   
   
     return (
-    <div className ={color ? "header header-bg":"header"}>
+    <div className ={color ? "header-bg":"header"}>
         <Link to="/">
         <h1>Portfolio</h1>
         </Link>
