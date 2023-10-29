@@ -9,6 +9,7 @@ const Heroimg = () => {
     <div className="hero">
       <div className="mask">
         <img className="into-img" src={shubham} alt="connectedcodes"/>
+        </div>
         <div  className="content">
           <p>I'M A FREELANCER</p>
           <h1>React Developer.</h1>
@@ -20,7 +21,7 @@ const Heroimg = () => {
 
       </div>
 
-      </div>
+      
   )
 }
 

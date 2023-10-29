@@ -3,7 +3,8 @@
     background: rgba(0, 0, 0, 0.5);
     height: 60vh;
     position: relative;
-}::before{
+}
+.hero-img::before{
     content: "";
     background-image: url(https://unsplash.com/photos/dvHkp6FzfIM);
     background-size: cover;
@@ -13,6 +14,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
 }
 
 .heading{
@@ -22,6 +24,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.hero-img h1{
+    font-size: 2.4rem;
 }
 
 .hero-img p{

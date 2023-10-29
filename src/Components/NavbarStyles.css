@@ -22,12 +22,14 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
-
+.hamburger{
+    display: none;
+    }
 @media screen and (max-width: 1040px) {
     .nav-menu{
         flex-direction: column;
         justify-content: center;
-        align-items: centre;
+        align-items: center;
         width: 100%;
         height: 100vh;
         background: rgba(0,0,0,0.9);
@@ -54,8 +56,6 @@
         }
 }
 
-.hamburger{
-display: none;
-}
+
 
 
