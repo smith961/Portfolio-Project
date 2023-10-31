@@ -5,7 +5,8 @@ const ProjectCardData = [
         imgsrc: joke_generator,
         title: "Jokes Generator",
         text: "It is a web application that generates jokes randomly each time a user request for a joke.",
-        view: "https://prismatic-clafoutis-2018a1.netlify.app/"
+        view: "https://prismatic-clafoutis-2018a1.netlify.app/",
+        source: "https://github.com/smith961/joke_generator"
     }
 
 ]
